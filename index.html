@@ -1,0 +1,4185 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Fast Website Using HTML CSS AND JS</title>
+  <link rel="icon" href="Image/generated-icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./little-style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <script src="Learning 2 - DOM Events (Main Website Script).js" defer></script>
+</head>
+
+<body>
+  <div class="container-style-2 bc-red">
+    <button class="fixed-button btn-style-1 c-black" id="dark-mode">
+      Light <br />
+      Mode
+    </button>
+    <h1 class="h1-1 heading-style-2 c-white" ondblclick="console.log(' double clicked')"
+      onmouseover="console.log('you are over me')">
+      This is My Fast Website Using HTML, CSS and JS
+    </h1>
+    <p class="c-white p-style-1-minimalistic">
+      Before I have created manny website using WordPress
+    </p>
+  </div>
+  <div class="container-style-1 div-vertical bc-gray-1">
+    <h1 class="heading-style-1 p-center">
+      Here is the code I have Learnd before making a website on JS learning
+    </h1>
+    <p class="p-style-1-minimalistic p-center">
+      I have learned a lot of things about JavaScript, but there are still
+      many things left for me to learn, so I will be studying variables and
+      data types.
+    </p>
+    <div class="code-show">
+      <div>
+        <table class="codetable">
+          <tbody>
+            <tr class="row">
+              <td class="numbcell">1</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 1 - Variables &amp; Data Types</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">2</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">const me = {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">3</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// It is an object (me is an object). Objects are made up of
+                    key-value pairs.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">4</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  FullName: "Upantor Paul",
+                  <span class="comment">// Key is FullName, and value is "Upantor Paul"</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">5</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">age: 14,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">6</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">hobbies: "web dev",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">7</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">favFood: "pizza",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">8</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">class: 8,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">9</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">10</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//We can update the values of keys even if the object is declared
+                    using "const".</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">11</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//But we can't reassign the whole object (e.g., me = { ... }) if
+                    it's declared with const.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">12</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//However, if we declare the object with "let", we can reassign
+                    the entire object.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">13</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  me["age"] = me["age"] + 1;
+                  <span class="comment"></span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">14</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  me["FullName"] = "Upantor";
+                  <span class="comment"></span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">15</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(me.age); <span class="comment">// Outputs: 15</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">16</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 2 - Operators and Conditional Statements</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">17</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Arithmetic Operators</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">18</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let ko = 10;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">19</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let ku = 5;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">20</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ku =", ku, "and ko =", ko);
+                  <span class="comment">// Outputs: ku = 5 and ko = 10</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">21</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko + ku = ", ko + ku);
+                  <span class="comment">// Output: 15</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">22</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko - ku = ", ko - ku);
+                  <span class="comment">// Output: 5</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">23</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko * ku = ", ko * ku);
+                  <span class="comment">// Output: 50</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">24</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko / ku = ", ko / ku);
+                  <span class="comment">// Output: 2</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">25</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko % ku = ", ko % ku);
+                  <span class="comment">// Output: 0</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">26</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko ** ku = ", ko ** ku);
+                  <span class="comment">// Output: 100000</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">27</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Increment and Decrement Operators</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">28</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  ko++;
+                  <span class="comment">// Increment ko by 1 Then when ko is printed, one will be added.
+                    we can also do this with --</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">29</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  ku = ku + 5; <span class="comment">// Increment ku by 5;</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">30</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("We have incremented ko by 1 and ku by 5. Now,");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">31</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("ko = ", ko, " and ku = ", ku);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">32</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// we can change valu by --a or ++a what it dose is that it will
+                    first print the value of a and then change the value of a. We can
+                    also do this with a+=4 or a-=4 or a*=4 or a/=4 or a%=4 or
+                    a**=4</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">33</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Assignment Operators</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">34</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Assignment Operators are =, +=, -=, *=, /=, %=, **=</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">35</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let p = 10;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">36</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let q = 5;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">37</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("q = ", q, " and p = ", p);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">38</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  p += 5; <span class="comment">// Same as a = a + 5</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">39</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">--q;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">40</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">q **= 4;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">41</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">42</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  "We Have Chenged the valu of q and p using Assignment Operators Now
+                  ",
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">43</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">"q = ",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">44</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">q,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">45</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">" and p = ",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">46</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">p,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">47</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">48</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Comparison Operators</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">49</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Comparison Operators are this is equal to ==, this is not
+                    equal to !=, ===, !==, &gt;, &lt;</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">50</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let l = 10;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">51</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let m = 5;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">52</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l = ", l, " and m = ", m);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">53</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l == m is ", l == m);
+                  <span class="comment">// Output: false</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">54</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l != m is ", l != m);
+                  <span class="comment">// Output: true</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">55</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l === m is ", l === m);
+                  <span class="comment">// Output: false</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">56</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l !== m is ", l !== m);
+                  <span class="comment">// Output: true</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">57</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l &gt; m is ", l &gt; m);
+                  <span class="comment">// Output: true</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">58</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("l &lt; m is ", l &lt; m);
+                  <span class="comment">// Output: false</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">59</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Logical Operators</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">60</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Logical Operators are &amp;&amp;, ||, !</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">61</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// &amp;&amp; is logical and, || is logical or, ! is logical
+                    not</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">62</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let x = 10;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">63</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let y = 5;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">64</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let condition1 = x &gt; y;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">65</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let condition2 = x === y;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">66</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("con1 &amp;&amp; con2 = ", condition1 &amp;&amp;
+                  condition2);
+                  <span class="comment">// Output: false &amp;&amp; is if both conditions are true then
+                    it will print true. if one of the condition is false then it will
+                    print false.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">67</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// use of || logical or</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">68</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("con1 || con2 = ", condition1 || condition2);
+                  <span class="comment">// Output: true. || is if any one of the condition is true then
+                    it will return true. if one of all condition false then it will
+                    return false.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">69</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// use of ! logical not</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">70</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("!con1 = ", !condition1);
+                  <span class="comment">// Output: !true = false. ! is used to reverse the
+                    condition.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">71</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("!(10&gt;5) = ", !(10 &gt; 5));
+                  <span class="comment">// Output: !(10&gt;5) = false. ! is used to reverse the
+                    condition.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">72</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Conditonal Statements</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">73</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Conditional Statements are if, if-else, if-else-if-else</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">74</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// use of if</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">75</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We write a condition after the if statement. If the condition
+                    inside the brackets is true, then all the code after the second
+                    bracket will be executed. If the condition is false, that code
+                    will never be executed.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">76</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let o = 23;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">77</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let j = 34;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">78</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">if (j &lt; o) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">79</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`${p} is less than ${o}`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">80</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">} else {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">81</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`${p} is equal to ${o}`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">82</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">83</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We are using Statements on dark and light mode example</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">84</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We are using Statements on age example</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">85</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let age = 22;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">86</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  if (age &lt; 0 || age &gt; 120) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">87</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("Please enter a valid age");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">88</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  } else if (age &lt; 18) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">89</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">90</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">
+                  "You are a minor. You cannot vote. You can vote after you are an
+                  adult.",
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">91</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">92</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">} else {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">93</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("You are an adult. You can vote.");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">94</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">95</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let number = 132;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">96</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">if (number % 2 === 0) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">97</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`${number} is even`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">98</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">} else {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">99</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`${number} is odd`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">100</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">101</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let mode = "dark";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">102</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let color;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">103</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">if (mode === "dark") {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">104</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">color = "black";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">105</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  } else if (mode === "normal") {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">106</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">color = "greay";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">107</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">} else {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">108</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">color = "white";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">109</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">110</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(color);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">111</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Switch Statement</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">112</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let marks = {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">113</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">english: 90,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">114</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">math: 80,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">115</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">science: 70,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">116</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">117</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let totalPoints = 0;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">118</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let subjectCount = 0;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">119</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let subject in marks) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">120</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let score = marks[subject];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">121</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let grade;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">122</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let point;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">123</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">if (score &gt;= 80) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">124</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">grade = "A+";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">125</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">point = 5;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">126</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  } else if (score &gt;= 70) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">127</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">grade = "A";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">128</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">point = 4;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">129</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  } else if (score &gt;= 60) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">130</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">grade = "B";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">131</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">point = 3;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">132</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  } else if (score &gt;= 50) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">133</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">grade = "C";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">134</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">point = 2;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">135</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">} else {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">136</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">grade = "F";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">137</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">point = 0;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">138</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">139</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`${subject}: ${grade} (${point} points)`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">140</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">totalPoints += point;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">141</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">subjectCount++;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">142</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">143</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let overallScore = totalPoints / subjectCount;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">144</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`\nOverall Point Score: ${overallScore.toFixed(2)} out
+                  of 5`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">145</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Ternary Operators</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">146</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let age3 = 33;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">147</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let result = age3 &gt;= 18 ? "adult" : "not adult";
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">148</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(result);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">149</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 3 - Loops and Strings</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">150</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// loops are used to repeat a block of code</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">151</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Loop are used when we need to execute a thing several time. it
+                    can be some lins of code or a number or name Suppose we want to
+                    print "Upantor Paul" 5 times We Can do this using for console.log
+                    but it will be a long process. So we use for loop</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">152</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// for loop</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">153</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">154</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// 💡 What is a loop?</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">155</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">156</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// A loop is used to repeat a block of code multiple times.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">157</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// For example, if you want to print "Hello" 100 times, instead
+                    of writing console.log("Hello") 100 times,</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">158</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// you can use a loop to do that for you.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">159</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">160</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ✅ FOR LOOP</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">161</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">162</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Syntax: for (initialization; condition; increment/decrement) {
+                    ... }</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">163</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// It runs as long as the condition is true.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">164</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let mes = 1; mes &lt;= 5; mes++) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">165</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("Upantor Paul");
+                  <span class="comment">// This will print "Upantor Paul" 5 times</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">166</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">167</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Another example: Summing numbers from 1 to 321</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">168</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let all1 = 321;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">169</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let i = 1; i &lt;= 321; i++) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">170</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">all1 = all1 + i;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">171</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">172</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("Sum is ", all1);
+                  <span class="comment">// Will print the sum of 321 + (1 + 2 + 3 + ... + 321)</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">173</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// This loop won't run because the condition is false at the
+                    start (0 is not &gt;= 2)</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">174</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let i = 0; i &gt;= 2; i++) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">175</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(i);
+                  <span class="comment">// This won't print anything</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">176</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">177</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">178</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ✅ WHILE LOOP</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">179</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">180</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Syntax: while (condition) { ... }</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">181</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// The loop keeps running as long as the condition is true.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">182</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let wi = 1;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">183</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">while (wi &lt;= 5) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">184</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(wi);
+                  <span class="comment">// This will print 1 to 5</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">185</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  wi++; <span class="comment">// Increment wi by 1</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">186</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">187</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">188</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ✅ DO WHILE LOOP</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">189</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// ===============================</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">190</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Syntax: do { ... } while (condition);</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">191</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// The main difference: it runs the code block **at least once**,
+                    even if the condition is false.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">192</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let di = 10;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">193</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">do {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">194</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(di);
+                  <span class="comment">// This will print 10 once, even though 10 &gt; 5</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">195</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">di++;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">196</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  } while (di &lt;= 5);
+                  <span class="comment">// Condition is false, so it won't run again</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">197</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// for of loop, for of loop is used to iterate over the elements
+                    of an array or a string but not for an object.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">198</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let java = "javascript";
+                  <span class="comment">// This is a string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">199</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let size = 0;
+                  <span class="comment">// This is a variable that will store the size of the
+                    string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">200</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">for (let i of java) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">201</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// This is a for of loop that will iterate over the elements of
+                    the string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">202</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(i);
+                  <span class="comment">// This will print each element of the string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">203</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  size++;
+                  <span class="comment">// This will increment the size by 1 for each element of the
+                    string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">204</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">205</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(size);
+                  <span class="comment">// This will print the size of the string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">206</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// For in loop, for in loop is used to iterate over the keys of
+                    an object or an array but not for a string.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">207</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let me23 = {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">208</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">name: "Upantor Paul",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">209</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">age: 14,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">210</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">hobbies: "web dev",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">211</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">favFood: "pizza",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">212</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">class: 8,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">213</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">214</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">for (let key in me23) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">215</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("key = ", key, " value = ", me23[key]);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">216</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">217</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// practice question</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">218</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Q1: Print all even numbers from 0 to 100</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">219</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let i = 1; i &lt;= 100; i++) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">220</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">if (i % 2 === 0) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">221</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">i + i;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">222</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">console.log(i);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">223</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">224</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">225</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Strings</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">226</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Strings are used to store text. They are enclosed in quotes.
+                    single quotes, double quotes, backticks are used to enclose
+                    strings. single quotes and double quotes are same but backticks
+                    are used to enclose strings that contain variables.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">227</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let str = "Upantor Paul";
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">228</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(str.length);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">229</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(str[(0, 2, 4, 5)]);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">230</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// template literals</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">231</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let specialString = `This is a template literal`;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">232</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let Iphone = {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">233</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">model: "12",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">234</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">color: "black",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">235</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">price: 999,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">236</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">237</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">238</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  `The price of the iphone`,
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">239</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">Iphone.model,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">240</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">`is`,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">241</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">Iphone.price,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">242</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">`dollars`,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">243</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">`and it is`,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">244</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">Iphone.color,</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">245</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">246</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// This is not the best way to do it. It is better to use
+                    template literals. Template literals are enclosed in backticks and
+                    they allow us to use variables inside the string.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">247</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">248</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  `The price of the iphone ${Iphone.model} is ${Iphone.price} dollars
+                  and it is ${Iphone.color}`,
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">249</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">250</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We can also use template literals to variables</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">251</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Strings Methods</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">252</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//We are going to use The str.slice mathod to slice the string.
+                    Suppose we want to slice the string from index 0 to 4. We can do
+                    this by using the slice method. The slice method takes two
+                    arguments. The first argument is the starting index and the second
+                    argument is the ending index. The ending</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">253</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let str23 = "Upantor Paul";
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">254</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let str2 = "is a boy";</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">255</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(str23.slice(2, 4));
+                  <span class="comment">// This will print "an" Beause it dont print the last index</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">256</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(str23.slice(2));
+                  <span class="comment">// This will print "antor Paul" Beause it print the last
+                    index</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">257</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We are going to use The str.concat mathod to concat the
+                    string. Suppose we want to concat the string with another string.
+                    We can do this by using the concat method. The concat method takes
+                    one argument. The argument is the string that we want to concat
+                    with the original string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">258</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(str23.concat(str2));
+                  <span class="comment">// This will print "Upantor Paul is a boy" Beacause it is margin
+                    those two string in one string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">259</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We are going to use The replace mathod to replace the string.
+                    Suppose we want to replace the string with another string. We can
+                    do this by using the replace method. The replace method takes two
+                    arguments. The first argument is the string that we want to
+                    replace and the</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">260</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(str23.replace("Paul", "is a boy"));
+                  <span class="comment">// This will print "Upantor is a boy" Beacause it is replacing
+                    the string "Paul" with "is a boy"</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">261</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//there is anoter mathod called replaceAll it is used to replace
+                    all the string with another string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">262</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//We are going to use The str.chartAt mathod to chartAt the
+                    string. Suppose we want to chartAt the string with another string.
+                    We can do this by using the chartAt method. The chartAt method
+                    takes one argument. The argument is the index of the string that
+                    we</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">263</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(str23.charAt(2));
+                  <span class="comment">// This will print "a" Beacause it is the 2nd index of the
+                    string</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">264</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 4 - Arrays</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">265</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Arrays are used to store multiple values in a single variable.
+                    They are enclosed in square brackets. Arrays are zero-indexed,
+                    meaning the first element is at index 0, the second element is at
+                    index 1, and so on.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">266</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let marks2 = [97, 82, 75, 66, 55, 42, 33, 24, 15, 6];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">267</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(marks2[0], marks2[1], marks2[2]);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">268</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let gow = ["Kratos", "Atreus", "thor", "Odin", "faye", "freya"];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">269</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">270</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  `The name of the god is ${gow[0]} his wife is ${gow[4]}. Their son
+                  is ${gow[1]}. ${gow[0]} defeated ${gow[2]} and ${gow[3]} While
+                  Ragnarok.`,
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">271</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">272</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// loops with Arrays</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">273</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Using For loop</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">274</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("loops with Arrays \nUsing For loop\n");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">275</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let i = 0; i &lt; gow.length; i++) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">276</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(gow[i]);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">277</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">278</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("Using For of loop");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">279</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">for (let i of gow) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">280</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(i);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">281</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">282</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// let's Practice</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">283</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Q1: Create an array to store 5 numbers, Make a avg of
+                    them</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">284</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let AllMarks = [85, 97, 33.3, 37, 76, 60];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">285</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let sum = 0;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">286</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let TotalMarks of AllMarks) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">287</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">sum += TotalMarks;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">288</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">289</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let MarksAvg = sum / AllMarks.length;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">290</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(MarksAvg);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">291</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Q2:</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">292</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let prices2 = [250, 645, 300, 900, 50];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">293</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (let i = 0; i &lt; prices2.length; i++) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">294</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`before discount = ${prices2[i]}`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">295</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let offer = prices2[i] / 10;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">296</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let DiscountOffer = prices2[i] - offer;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">297</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(`after discount = ${DiscountOffer}`);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">298</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">299</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Array Mathods</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">300</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using push mathod to add a new element at the end of the
+                    array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">301</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let FoodItems = ["Burger", "Pizza", "Fries", "Coke", "Pepsi"];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">302</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let OtherFood = ["Pasta", "Sandwich", "Salad", "Soup"];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">303</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  FoodItems.push("Noodles");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">304</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(FoodItems);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">305</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using pop mathod to remove the last element of the array, Can
+                    be used to add now by deleting the last elements</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">306</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  FoodItems.pop();
+                  <span class="comment">// in this case it will remove "Noodles"</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">307</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  FoodItems.pop("Milk Sake");
+                  <span class="comment">// in this case it will add Milk Sake by removing the last
+                    Coke</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">308</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(FoodItems);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">309</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using .concat mathod to merge two arrays</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">310</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let AllFoodItems = FoodItems.concat(OtherFood);
+                  <span class="comment">// in this case it will merge FoodItems and OtherFood</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">311</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(AllFoodItems);
+                  <span class="comment">// It will print the merged array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">312</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let CleverMethod = FoodItems.pop(FoodItems.concat(OtherFood));
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">313</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(CleverMethod);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">314</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using unshift mathod to add a new element at the beginning of
+                    the array Something like Push</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">315</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let SetUp = ["CPU", "GPU", "RAM", "Motherboard", "Power Supply"];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">316</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  SetUp.unshift("Keyboard", "Mouse");
+                  <span class="comment">// It is adding Keyboard and Mouse at the beginning of the
+                    array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">317</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(SetUp);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">318</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using shift mathod to remove the first element of the array,
+                    Can be used to add now by deleting the first elements</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">319</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let NewSetUp = SetUp.shift("mouse pad");
+                  <span class="comment">// It is removing Keyboard from the beginning of the array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">320</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("Now Deleted", NewSetUp);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">321</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("Now New Array is", SetUp);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">322</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Using .slice mathod to slice the array from the starting index
+                    to the ending index</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">323</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(SetUp.slice(1, 3));
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">324</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Using .splice mathod to add or remove or replace elements from
+                    the array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">325</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Splice is kind of forgiveing But it is understandable. After
+                    the "(" We say which index to start working from, maybe 2. Then,
+                    using a comma, the number that we give is the index after which
+                    the element will be deleted. Then using commas we can say what to
+                    put in the deleted elements.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">326</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let MyFovoriteGames = [</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">327</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">"God of War 18",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">328</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">"Red Dead Redemtion 2",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">329</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">"The Last of Us",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">330</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">"Spider-Man",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">331</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">"Ratchet &amp; Clank",</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">332</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">];</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">333</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  MyFovoriteGames.splice(0, 1, "God Of War Ragnarok");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">334</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(MyFovoriteGames);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">335</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 5 - Functions &amp; Methods</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">336</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using function to create a function. There are manny function
+                    that are inbuilt in javascript. But we can also create our own
+                    function. We can create a function using the function keyword.
+                    Then we give the function a name. Then we give the function a set
+                    of parentheses. Then we give the function a set of curly</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">337</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let pi = 3.14;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">338</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  function MyFastFunctionS2(radius) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">339</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Area = `the radius ${radius} and the Area is ` + pi *
+                  Math.pow(radius, 2);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">340</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  return Area;
+                  <span class="comment">// After return the function will stop executing.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">341</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">342</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(MyFastFunctionS2(4));
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">343</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.tulu = function (...args) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">344</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(...args);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">345</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">346</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.tulu(</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">347</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  "We are using console.tulu to print this message. This is a fun way!
+                  This is how we can manipulate JavaScript functions into our own
+                  custom functions. In the same way, we can create server-side or even
+                  machine learning functions, which JavaScript doesn’t provide by
+                  default.",
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">348</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">349</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We can also create function using arrow function. Arrow
+                    function is a shorthand for creating a function. We can create a
+                    function using the arrow function keyword. Then we give the
+                    function a name. Then we give the function a set of
+                    parentheses.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">350</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const plusFunt = (a, b) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">351</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">return a + b;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">352</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">353</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(plusFunt(2, 3));
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">354</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Let's Practice</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">355</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Qustion 1: Create a function using the "function" keyword that
+                    takes a String as an argument &amp; returns the number of vowels
+                    in the string.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">356</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  function CoutVal(str23) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">357</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">let count = 0;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">358</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  for (const cher of str23) {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">359</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">if (</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">360</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "a" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">361</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "e" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">362</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "i" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">363</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "o" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">364</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "u" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">365</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "A" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">366</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "E" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">367</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "I" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">368</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "O" ||</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">369</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">cher === "U"</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">370</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">) {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">371</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">count++;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">372</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 30px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">373</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">374</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">return count;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">375</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">}</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">376</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(CoutVal("Upantor Paul"));
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">377</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using forEach loop to iterate over the elements of an
+                    array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">378</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let ForEach_Arr = ["Upantor", "Paul", "is", "a", "boy"];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">379</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  ForEach_Arr.forEach((val, idx, arr) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">380</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(val.toUpperCase(), idx, arr);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">381</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">382</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//let's Practice</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">383</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Q1: Create a forEach loop in a arr and caulculate the square
+                    of each element</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">384</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let SquareArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">385</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  SquareArr.forEach((val) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">386</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(val * val);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">387</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">388</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Using map method to create a new array by performing a
+                    function on each element of the array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">389</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let MapArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">390</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">MapArr.map((val) =&gt; {</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">391</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(val);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">392</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">393</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// We can alse use map to create a new array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">394</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Now we will use filter method to filter out the elements that
+                    we dont want. We wll create a array and filter only the even
+                    numbers</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">395</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let FilterArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">396</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let FiltedrArr = FilterArr.filter((val) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">397</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  return val % 2 === 0;
+                  <span class="comment">//If we want to filter out the odd numbers we can use val % 2 !==
+                    0</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">398</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">399</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(FiltedrArr);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">400</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Now we will use reduce method to reduce the array to a single
+                    value. We will use reduce to find the sum of all the elements in
+                    the array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">401</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let ReduceArr = [1, 2, 3, 4, 5, 6, 7, 8, 29, 10];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">402</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let ReducedArr = ReduceArr.reduce((res, curr) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">403</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">return res + curr;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">404</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">405</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(ReducedArr);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">406</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//We Can use to to find out largest number in a array</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">407</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let MaxArra = ReduceArr.reduce((res, curr) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">408</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  return res &gt; curr ? res : curr;
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">409</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">410</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(MaxArra);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">411</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Lets Practice</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">412</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//Q1: Create a Array of marks of students. Filter out the marks
+                    of students that scored 90+</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">413</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let MarksArr = [97, 64, 32, 55, 67, 85, 90, 92, 77, 35];
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">414</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  let ninteplusMarks = MarksArr.filter((val) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">415</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">return val &gt; 89;</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">416</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">417</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(ninteplusMarks)
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">418</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 5 - DOM</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">419</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const buttonStyle1 = document.createElement("button");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">420</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  buttonStyle1.innerText = "Click me!";
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">421</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  buttonStyle1.setAttribute("class", "btn-style-1");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">422</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const Popup = document.createElement("div");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">423</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Popup.setAttribute("class", "popup-style-1");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">424</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Popup.innerText = "this is my fast popup";
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">425</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Popup.append(buttonStyle1);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">426</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  buttonStyle1.onclick = function () {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">427</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  buttonStyle1.append(Popup);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">428</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">429</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//We can use event on HTML code, but it is not a good practice We
+                    need to use event in direct JavaScript, it is the best practice
+                    here how</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">430</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const Image2 = document.querySelector("#myImage");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">431</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Image2.onclick = () =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">432</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Image2.setAttribute("src", "Image/generated-icon.png");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">433</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">434</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Chapter 5 - events</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">435</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const reviews = document.querySelector("#reviews");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">436</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  reviews.onclick = (evnt) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">437</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(evnt);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">438</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.target);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">439</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.target.innerText);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">440</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.target.innerHTML);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">441</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(evnt.type);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">442</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.clientX);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">443</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.clientY);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">444</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">};</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">445</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// There are two types of event handling:</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">446</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// 1. Inline event handling — writing the event directly in the
+                    HTML (e.g., onclick="myFunc()")</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">447</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// 2. JavaScript-based handling — using functions in JS
+                    files</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">448</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">//</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">449</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Inline event handlers are not recommended because they mix
+                    HTML with logic and can be overwritten.</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">450</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// It's better to use addEventListener(), which keeps JavaScript
+                    separate, allows multiple listeners, and is more flexible. Here is
+                    how you can use it:</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">451</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const Lorem = document.getElementById("heading-lorem");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">452</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Lorem.addEventListener("dblclick", (evnt) =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">453</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(evnt);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">454</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.target);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">455</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.target.innerText);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">456</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.target.innerHTML);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">457</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">console.log(evnt.type);</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">458</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log(evnt.clientX);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">459</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">460</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// You can add multiple event listeners to the same element using
+                    addEventListener().</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">461</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  <span class="comment">// Now let's see how to remove an event listener:</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">462</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Lorem.addEventListener("click", () =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">463</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("The heading was clicked -- 1");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">464</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  });
+                  <span class="comment">//Suppose we want to remove this event listener But We can't
+                    remove it directly, we need to drefine in a variable</span>
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">465</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  const clickLorem = ("click", () =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">466</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("The heading was clicked -- 2");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">467</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">468</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Lorem.addEventListener("click", clickLorem);
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">469</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Lorem.addEventListener("click", () =&gt; {
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">470</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  console.log("The heading was clicked -- 3");
+                </p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">471</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">});</p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">&nbsp;</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px"></p>
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="numbcell">472</td>
+              <td class="cell">
+                <p class="cellp" style="margin-left: 0px">
+                  Lorem.removeEventListener("click", clickLorem);
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    <div class="container-style-1 div-row">
+      <div class="child-style-1">
+        <h2 class="heading-style-2" id="heading-lorem">
+          Lorem ipsum dolor sit amet
+        </h2>
+        <p class="p-style-1-minimalistic div-width-70">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tortor
+          sed libero bibendum luctus a a justo. Nunc vitae interdum purus. Proin
+          et tempor turpis. Maecenas at erat augue. Curabitur quis auctor risus,
+          vel tempus quam. Donec euismod, tortor ut varius lacinia, dolor risus
+          porta sapien, id feugiat eros orci porttitor urna. Etiam mattis
+          venenatis urna nec hendrerit.
+        </p>
+      </div>
+      <div class="child-style-2">
+        <img class="img-style-1" src="Image/altumcode-PNbDkQ2DDgM-unsplash.jpg" alt="A descriptive image"
+          id="myImage" />
+      </div>
+    </div>
+    <div class="container-style-1 div-vertical bc-gray-1">
+      <div class="container-style-1">
+        <h2 class="heading-style-2" id="reviews">Reviews</h2>
+      </div>
+
+    </div>
+    <div class="container-style-1 div-vertical margin-bottm-200">
+      <h2 class="heading-style-2">Tic Tac Toe game</h2>
+      <button class="btn-style-1" id="play-with-bot">Play with Bot</button>
+      <p class="p-style-1-minimalistic p-center">
+        Now I have successfully learned JavaScript basic so I'll be trying to
+        make a mini project like a tic tac to game. I'll be using HTML, CSS and
+        JavaScript to make this game. I'll be using HTML to make the structure
+        of the game, CSS to make the style of the game and JavaScript to make
+        the game functional.
+      </p>
+      <div class="container-style-1 div-vertical">
+        <div id="TTT-result">
+          <h3 id="TTT-Winner-result">It Will Show The Result</h3>
+        </div>
+        <div id="main-tic-tac-toe-div" class="grid-container-3x3">
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-0"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-1"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-2"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-3"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-4"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-5"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-6"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-7"></div>
+          <div class="tic-tac-toe-child" id="tic-tac-toe-child-8"></div>
+        </div>
+        <button class="btn-style-1" id="reset-tic-tac-toe">Reset</button>
+      </div>
+    </div>
+
+    <div class="container-style-1 div-vertical bc-gray-1">
+      <div class="container-style-1 div-vertical">
+        <h2 class="heading-style-2">Rock, Paper, Scissors Game</h2>
+        <p class="p-style-1-minimalistic p-center">
+          I have successfully made a Tic Tac Toe game. Now I will try to make a
+          Rock Paper Scissors game as practice using HTML, CSS, and JavaScript.
+          I want to learn more advanced JavaScript features by building mini
+          projects.
+        </p>
+      </div>
+      <div class="container-style-1 div-row rpc-parent">
+        <button class="btn-rpc-child" id="rock">
+          <img src="Image/fist-raised-solid-svgrepo-com.svg" alt="Peace Sign Hand" width="64" height="64" />
+        </button>
+        <button class="btn-rpc-child" id="paper">
+          <img src="Image/hand-svgrepo-com.svg" alt="Peace Sign Hand" width="64" height="64" />
+        </button>
+        <button class="btn-rpc-child" id="scissors">
+          <img src="Image/two-fingers-of-a-hand-svgrepo-com.svg" alt="Peace Sign Hand" width="64" height="64" />
+        </button>
+      </div>
+      <div class="container-style-1 div-row bc-white margin-top-50">
+        <div class="container-style-1 div-vertical">
+          <h3 class="heading-style-3 alingitms-start" id="rpc-result">
+            Pick Your Move
+          </h3>
+        </div>
+        <div class="container-style-1 div-row">
+          <div class="container-style-1 div-vertical width-40">
+            <p class="heading-style-3 p-center">
+              <span id="rpc-user-score">0</span> <br />
+              You Won
+            </p>
+          </div>
+          <div class="container-style-1 div-vertical width-60">
+            <p class="heading-style-3 p-center heading-20px">
+              <span id="rpc-computer-score">0</span> <br />
+              Computer Won
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="rpc-button-reset" id="rpc-button-reset">Reset Game</button>
+    </div>
+    
+    </div>
+    <footer style="margin-top: 200px"></footer>
+</body>
+
+</html>

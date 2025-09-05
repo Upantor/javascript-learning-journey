@@ -1,0 +1,93 @@
+.bc-red {
+  background-color: red;
+}
+
+.c-white {
+  color: white;
+}
+
+.c-black {
+  color: black;
+}
+
+
+.div-row {
+  flex-direction: row;
+}
+
+.div-width-70 {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .div-width-70 {
+    width: 100%;
+  }
+}
+
+.div-vertical {
+  flex-direction: column;
+}
+
+.bc-gray-1 {
+  background-color: #f7f7f7;
+}
+
+.div-cenner {
+  align-items: center;
+}
+
+.bc-white {
+  background-color: white;
+}
+
+.div-no-gap {
+  gap: 0px;
+
+}
+
+.p-center {
+  text-align: center;
+}
+
+.div-warp {
+  flex-wrap: wrap;
+}
+
+#reviews {
+  margin-bottom: -30px;
+}
+
+.margin-bottm-200 {
+  margin-bottom: 200px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.heading-20px {
+  size: 20px;
+  font-size: 20px;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.alingitms-start {
+  align-items: left;
+}
+
+#rpc-result {
+  white-space: pre-line;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+

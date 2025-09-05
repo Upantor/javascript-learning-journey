@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Fetch API with Project</title>
+
+  <link href="api-style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1 class="heading-style-1-api">Fetch API with Project</h1>
+
+  <div class="api-parent-1">
+    <div>
+      <h2 class="heading-style-1-api t-size-20px">Create JOKE Using API</h2>
+    </div>
+    <div class="api-parent">
+      <p class="api-text" id="joke-api">Getting The Joke...</p>
+    </div>
+  </div>
+
+  <div class="currency-changer-parent-1 api-parent-1">
+    <div>
+      <h2 class="heading-style-1-api t-size-20px">
+        Create currency changer using API
+      </h2>
+    </div>
+    <div class="currency-changer-parent">
+      <h3 class="heading-style-1-api t-size-20px" id="currency-converter">
+        currency converter
+      </h3>
+      <label for="amount" class="c-label">Enter Your Amount</label>
+      <input type="number" id="amount" class="c-amount-2" placeholder="Enter your amount" />
+      <div>
+        <div>
+          <label for="date" class="c-label">Enter The Date You Want To See The Rete</label>
+        </div>
+        <div class="div-row12">
+          <input type="number" name="date" id="date" class="c-amount-2" placeholder="Date" />
+          <input type="number" name="month" id="month" class="c-amount-2" placeholder="Month" />
+          <input type="number" name="year" id="year" class="c-amount-2" placeholder="Year" />
+        </div>
+      </div>
+
+      <div id="c-from-to">
+        <div class="currency-box">
+          <label for="from-currency" class="currency-label c-label">From</label>
+          <div class="c-to-from">
+            <img src="https://flagsapi.com/US/flat/64.png" class="c-count-img" id="from-flag" />
+            <select name="from" id="from-currency" class="c-s-form-to"></select>
+          </div>
+        </div>
+
+        <div class="arrow-icon">
+          <!-- SVG arrow icon -->
+          <svg width="40px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 16V13L16 13V11L5 11L5 8H4L3.93403e-07 12L4 16H5Z" fill="#000000" />
+            <path d="M11 8L11 5L8.74227e-08 5L0 3L11 3V4.37112e-08L12 0L16 4L12 8H11Z" fill="#000000" />
+          </svg>
+        </div>
+
+        <div class="currency-box">
+          <label for="to-currency" class="currency-label c-label">To</label>
+          <div class="c-to-from">
+            <img src="https://flagsapi.com/BD/flat/64.png" class="c-count-img" id="from-flag" />
+            <select name="to" id="to-currency" class="c-s-form-to"></select>
+          </div>
+        </div>
+      </div>
+      <div class="api-parent-2">
+        <p class="api-text" id="exchange-rate-text">Please enter a number</p>
+        <p id="date-error" style="color: red"></p>
+        <button id="get-exchange-rate" class="api-button get-exchange-rate">
+          Get Exchange Rate
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"></footer>
+  <script src="Learning 4 - API.js"></script>
+</body>
+
+</html>
